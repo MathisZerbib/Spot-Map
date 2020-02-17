@@ -26,8 +26,6 @@ dependencies:
   firebase_auth: ^0.15.4
   google_sign_in: ^4.1.1
   google_maps_flutter: ^0.5.23+1
-  http: ^0.12.0+4
-  json_serializable: ^3.2.5
 
 
 dev_dependencies:
