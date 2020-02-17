@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:spotmap/first_screen.dart';
 import 'package:spotmap/sign_in.dart';
+import 'package:spotmap/map.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -36,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
           Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) {
-                return FirstScreen();
+                return Map();
               },
             ),
           );
